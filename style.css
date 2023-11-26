@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(234, 29%, 20%);
+    color:black;
+}
+.container{
+    display: flex;
+    width: 800px;
+    height: 550px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.main-text,.container-img{
+    width:50%;
+}
+.main-text{
+    padding: 10px;
+}
+.container-img{
+    background-image: url('./assets/images/illustration-sign-up-desktop.svg');
+    /* background-repeat: ; */
+
+}
+.head{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px;
+}
+li{
+    list-style:none;
+    padding: 10px;
+}
+li::before{
+content:url('./assets/images/icon-list.svg')
+}
+.form{
+    margin-top:20px;
+}
+input{
+    width: 80%;
+    height: 40px;
+}
+.btn{
+    background-color: orangered;
+    padding: 15px;
+    color:white;
+    width: fit-content;
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+/* Sign-up form end
+
+<!-- Success message start -->
+
+Thanks for subscribing!
+
+A confirmation email has been sent to ash@loremcompany.com. 
+Please open it and click the button inside to confirm your subscription.
+
+Dismiss message */
